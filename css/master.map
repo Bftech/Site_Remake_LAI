@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/master.css",
+	"sources": [
+		"../scss/master.scss"
+	],
+	"sourcesContent": [
+		"//\r\n\r\n.section{\r\n\r\n  color: white;\r\n  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);\r\n\r\n  &:first-of-type{\r\n\r\n    background-image: url(\"./../medias/img/PANA6273.JPG\");\r\n    background-position: center;\r\n    background-size: cover;\r\n\r\n    .jumbotron{\r\n      background: linear-gradient(90deg, #E31E25 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(90deg, #6B50A1 66%, #E83A6D 66%);\r\n      box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);\r\n      border-radius: 0px;\r\n    }\r\n\r\n  }\r\n\r\n  &:nth-of-type(2){\r\n    background-color: #E31E25;\r\n  }\r\n\r\n  &:nth-of-type(3){\r\n    background-color: #6B50A1;\r\n  }\r\n\r\n  &:nth-of-type(4){\r\n    background-color: #E83A6D;\r\n  }\r\n\r\n}\r\n"
+	],
+	"mappings": ";AAEA,AAAA,QAAQ,CAAA;EAEN,KAAK,EAAE,KAAM;EACb,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,GAAG,CAAC,kBAAI;CA4BlC;;;AA/BD,AAAA,QAAQ,AAKL,cAAc,CAAA;EAEb,gBAAgB,EAAE,mCAAG;EACrB,mBAAmB,EAAE,MAAO;EAC5B,eAAe,EAAE,KAAM;CAQxB;;;AAjBH,AAWI,QAXI,AAKL,cAAc,CAMb,UAAU,CAAA;EACR,UAAU,EAAE,oDAAe,EAA4C,gDAAe;EACtF,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,GAAG,CAAC,kBAAI;EACjC,aAAa,EAAE,GAAI;CACpB;;;AAfL,AAAA,QAAQ,AAmBL,YAAa,CAAA,AAAA,CAAC,EAAC;EACd,gBAAgB,EAAE,OAAQ;CAC3B;;;AArBH,AAAA,QAAQ,AAuBL,YAAa,CAAA,AAAA,CAAC,EAAC;EACd,gBAAgB,EAAE,OAAQ;CAC3B;;;AAzBH,AAAA,QAAQ,AA2BL,YAAa,CAAA,AAAA,CAAC,EAAC;EACd,gBAAgB,EAAE,OAAQ;CAC3B",
+	"names": []
+}

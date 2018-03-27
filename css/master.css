@@ -1,0 +1,36 @@
+/* line 3, C:/Users/Bftech/Projets/[LPTAISCIAN]/Site_Remake_LAI/scss/master.scss */
+.section {
+  color: white;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
+}
+
+/* line 8, C:/Users/Bftech/Projets/[LPTAISCIAN]/Site_Remake_LAI/scss/master.scss */
+.section:first-of-type {
+  background-image: url("./../medias/img/PANA6273.JPG");
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 14, C:/Users/Bftech/Projets/[LPTAISCIAN]/Site_Remake_LAI/scss/master.scss */
+.section:first-of-type .jumbotron {
+  background: linear-gradient(90deg, #E31E25 33%, transparent 33%), linear-gradient(90deg, #6B50A1 66%, #E83A6D 66%);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
+  border-radius: 0px;
+}
+
+/* line 22, C:/Users/Bftech/Projets/[LPTAISCIAN]/Site_Remake_LAI/scss/master.scss */
+.section:nth-of-type(2) {
+  background-color: #E31E25;
+}
+
+/* line 26, C:/Users/Bftech/Projets/[LPTAISCIAN]/Site_Remake_LAI/scss/master.scss */
+.section:nth-of-type(3) {
+  background-color: #6B50A1;
+}
+
+/* line 30, C:/Users/Bftech/Projets/[LPTAISCIAN]/Site_Remake_LAI/scss/master.scss */
+.section:nth-of-type(4) {
+  background-color: #E83A6D;
+}
+
+/*# sourceMappingURL=../css/master.map */
