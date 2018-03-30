@@ -1,36 +1,105 @@
-/* line 3, C:/Users/Bftech/Projets/[LPTAISCIAN]/Site_Remake_LAI/scss/master.scss */
 .section {
-  color: white;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
-}
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8); }
+  .section:first-of-type {
+    color: white;
+    background-image: url("./../medias/img/PANA6273.JPG");
+    background-position: center;
+    background-size: cover;
+    font-family: Charter; }
+    .section:first-of-type .jumbotron {
+      background: -webkit-gradient(linear, left top, right top, color-stop(33%, #e21c3e), color-stop(33%, transparent)), -webkit-gradient(linear, left top, right top, color-stop(66%, #625197), color-stop(66%, #cc4468));
+      background: -webkit-linear-gradient(left, #e21c3e 33%, transparent 33%), -webkit-linear-gradient(left, #625197 66%, #cc4468 66%);
+      background: -o-linear-gradient(left, #e21c3e 33%, transparent 33%), -o-linear-gradient(left, #625197 66%, #cc4468 66%);
+      background: linear-gradient(90deg, #e21c3e 33%, transparent 33%), linear-gradient(90deg, #625197 66%, #cc4468 66%);
+      -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
+      border-radius: 0px; }
+  .section:nth-of-type(2) {
+    background-image: url("./../medias/img/PANA7459.JPG");
+    background-position: center;
+    background-size: cover; }
+    .section:nth-of-type(2) .jumbotron {
+      padding-top: 1rem; }
+  .section:nth-of-type(3) {
+    background-image: url("./../medias/img/PANA6295.JPG");
+    background-position: center;
+    background-size: cover; }
+    .section:nth-of-type(3) .jumbotron {
+      padding-top: 1rem; }
+  .section:nth-of-type(4) {
+    background-image: url("./../medias/img/PANA7058.JPG");
+    background-position: center;
+    background-size: cover; }
+  .section .jumbotron img {
+    max-width: 75%; }
 
-/* line 8, C:/Users/Bftech/Projets/[LPTAISCIAN]/Site_Remake_LAI/scss/master.scss */
-.section:first-of-type {
-  background-image: url("./../medias/img/PANA6273.JPG");
-  background-position: center;
-  background-size: cover;
-}
+@font-face {
+  font-family: Charis;
+  src: url("./../fonts/charissil-b.ttf"); }
 
-/* line 14, C:/Users/Bftech/Projets/[LPTAISCIAN]/Site_Remake_LAI/scss/master.scss */
-.section:first-of-type .jumbotron {
-  background: linear-gradient(90deg, #E31E25 33%, transparent 33%), linear-gradient(90deg, #6B50A1 66%, #E83A6D 66%);
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
-  border-radius: 0px;
-}
+@font-face {
+  font-family: Charter;
+  src: url("./../fonts/charter_bold-webfont.ttf"); }
 
-/* line 22, C:/Users/Bftech/Projets/[LPTAISCIAN]/Site_Remake_LAI/scss/master.scss */
-.section:nth-of-type(2) {
-  background-color: #E31E25;
-}
+html,
+body {
+  font-size: 14px !important; }
 
-/* line 26, C:/Users/Bftech/Projets/[LPTAISCIAN]/Site_Remake_LAI/scss/master.scss */
-.section:nth-of-type(3) {
-  background-color: #6B50A1;
-}
+h1 {
+  font-size: 1.602em; }
 
-/* line 30, C:/Users/Bftech/Projets/[LPTAISCIAN]/Site_Remake_LAI/scss/master.scss */
-.section:nth-of-type(4) {
-  background-color: #E83A6D;
-}
+h2 {
+  font-size: 1.424em; }
 
-/*# sourceMappingURL=../css/master.map */
+h3 {
+  font-size: 1.266em; }
+
+h4 {
+  font-size: 1.125em; }
+
+h5 {
+  font-size: 0.889em; }
+
+h6 {
+  font-size: 0.79em; }
+
+.display-1 {
+  font-size: 3.906em; }
+
+.display-2 {
+  font-size: 3.125em; }
+
+.display-3 {
+  font-size: 2.5em; }
+
+.display-4 {
+  font-size: 2em; }
+
+@media (min-width: 48em) {
+  h1 {
+    font-size: 2.441em; }
+  h2 {
+    font-size: 1.953em; }
+  h3 {
+    font-size: 1.563em; }
+  h4 {
+    font-size: 1.25em; }
+  .display-1 {
+    font-size: 6em; }
+  .display-2 {
+    font-size: 5.5em; }
+  .display-3 {
+    font-size: 4.5em; }
+  .display-4 {
+    font-size: 3.5em; } }
+
+@media (min-width: 62em) {
+  html,
+  body {
+    font-size: 16px !important; } }
+
+@media (min-width: 75em) {
+  html,
+  body {
+    font-size: 18px !important; } }

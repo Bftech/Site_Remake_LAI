@@ -1,34 +1,74 @@
-//
+//vars
+
+$cust-violet : #625197;
+$cust-rouge : #e21c3e;
+$cust-rose : #cc4468;
 
 .section{
 
-  color: white;
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
 
   &:first-of-type{
+    color: white;
 
     background-image: url("./../medias/img/PANA6273.JPG");
     background-position: center;
     background-size: cover;
+    font-family: Charter;
 
     .jumbotron{
-      background: linear-gradient(90deg, #E31E25 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(90deg, #6B50A1 66%, #E83A6D 66%);
+      background: linear-gradient(90deg, $cust-rouge 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(90deg, $cust-violet 66%, $cust-rose 66%);
       box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
       border-radius: 0px;
+    }
+  }
+
+  &:nth-of-type(2){
+    background-image: url("./../medias/img/PANA7459.JPG");
+    background-position: center;
+    background-size: cover;
+    // background-color: $cust-rouge;
+    .jumbotron{
+      padding-top: 1rem;
+    }
+  }
+
+  &:nth-of-type(3){
+    background-image: url("./../medias/img/PANA6295.JPG");
+    background-position: center;
+    background-size: cover;
+    // background-color: $cust-violet;
+    .jumbotron{
+      padding-top: 1rem;
+    }
+  }
+
+  &:nth-of-type(4){
+    background-image: url("./../medias/img/PANA7058.JPG");
+    background-position: center;
+    background-size: cover;
+    // background-color: $cust-rose;
+  }
+
+  .jumbotron {
+
+    img{
+      max-width: 75%
     }
 
   }
 
-  &:nth-of-type(2){
-    background-color: #E31E25;
-  }
-
-  &:nth-of-type(3){
-    background-color: #6B50A1;
-  }
-
-  &:nth-of-type(4){
-    background-color: #E83A6D;
-  }
-
 }
+
+// Fonts
+@font-face {
+    font-family: Charis;
+    src: url("./../fonts/charissil-b.ttf");
+}
+@font-face {
+    font-family: Charter;
+    src: url("./../fonts/charter_bold-webfont.ttf");
+}
+
+@import "font_size.scss";
+// @import "./bs_font_size.scss";

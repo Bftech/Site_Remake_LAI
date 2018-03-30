@@ -1,5 +1,5 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-    verticalCentered: false
+    verticalCentered: true
   });
 });
